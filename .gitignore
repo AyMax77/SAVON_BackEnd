@@ -38,3 +38,9 @@ out/
 
 ### Kotlin ###
 .kotlin
+ # Éviter d'envoyer les fichiers de configuration contenant des mots de passe
+   *.properties
+
+   # Pour éviter les fichiers générés automatiquement
+   target/
+   *.class
